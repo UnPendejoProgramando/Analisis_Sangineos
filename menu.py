@@ -15,7 +15,7 @@ screen = Tk()
 screen.title("Laboratorio de Analisis Clinicos DM")
 screen.geometry("400x150")
 screen.resizable(0,0)
-screen.iconbitmap("icono/icono.ico")
+screen.iconbitmap("icono.ico")
 screen.config(bg = "#D1C4E9")
 
 Label(screen, text = "Laboratorio de Analisis Clinicos DM", font = ("Arial", 14), bg = "#EDE7F6").place(x = 50, y = 0)
