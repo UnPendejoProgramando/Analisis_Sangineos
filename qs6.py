@@ -6,7 +6,7 @@ class Qs6():
         self.screenTree.geometry("400x350")
         self.screenTree.title("QS6")
         self.screenTree.config(bg = "#D1C4E9")
-        self.screenTree.iconbitmap("icono/icono.ico")
+        self.screenTree.iconbitmap("icono.ico")
         self.screenTree.resizable(0,0)
         Label(self.screenTree, text = "Quimica Sanguinea 6", bg = "#EDE7F6", font = ("Arial", 12)).place(x = 100, y = 0)
         #--------Instancias-------
