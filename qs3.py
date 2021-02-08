@@ -9,7 +9,7 @@ class Qs3:
         self.screenTwo.geometry("400x350")
         self.screenTwo.title("QS3")
         self.screenTwo.config(bg = "#D1C4E9")
-        self.screenTwo.iconbitmap("icono/icono.ico")
+        self.screenTwo.iconbitmap("icono.ico")
         self.screenTwo.resizable(0,0)
         Label(self.screenTwo, text = "Quimica Sanguinea 3", bg = "#EDE7F6", font = ("Arial", 12)).place(x = 100, y = 0)
         #---------Instancias-----
