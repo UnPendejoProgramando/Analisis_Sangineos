@@ -8,7 +8,7 @@ class Base:
         self.second = Toplevel()
         self.second.title(self.titulo)
         self.second.geometry("400x250")
-        self.second.iconbitmap("icono/icono.ico")
+        self.second.iconbitmap("icono.ico")
         self.second.config(bg = "#E1BEE7")
         self.second.resizable(0,0)
         Label(self.second, text = "Convercion de " + self.titulo, font = ("Arial", 12), bg = "#F3E5F5").place(x = 50, y = 0)
